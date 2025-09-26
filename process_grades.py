@@ -36,15 +36,14 @@ def process_grades(students):
 
 if __name__ == "__main__":
     students = [
-        {'name': 'Ana', 'grades': None},
-        {'name': 'Luis', 'grades': [80, 85, 87]},
-        {'name': 'Jorge', 'grades': [50, 60, 55]},
-        {'name': 'Marta', 'grades': [10, 25, 30]}
+        {'name': 'Ana', 'grades': [50, 40, 70]},
+        {'name': 'Luis', 'grades': [30, 40, 40]},
+        {'name': 'Jorge', 'grades': None},
+        {'name': 'Marta', 'grades': [90, 95, 100]}
     ]
-
 
     result = process_grades(students)
     print("\nFinal processing result:")
     print(result)
 
-#Test_DC
+#Test_PC
